@@ -4,7 +4,7 @@
     export let data;
 </script>
 
-<div class="searched-movies">
+<div class="searched-movies" >
     {#each data.searchedMovies as movie}
         <MovieCard {movie} />
     {/each}

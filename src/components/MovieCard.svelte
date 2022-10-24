@@ -6,7 +6,7 @@
         : "https://dummyimage.com/500x750/9c9c9c/ffffff.png";
 </script>
 
-<div class="movie-card">
+<div class="movie-card" data-sveltekit-prefetch>
     <a href={`/movie/${movie.id}`}>
         <img {src} alt={movie.title} />
     </a>
